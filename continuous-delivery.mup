@@ -1,0 +1,702 @@
+{
+  "title": "continuous delivery",
+  "id": 1,
+  "formatVersion": 2,
+  "ideas": {
+    "1": {
+      "title": "Version Control\n",
+      "id": 2,
+      "ideas": {
+        "4": {
+          "title": "git / hg",
+          "id": 45,
+          "ideas": {
+            "1": {
+              "title": "distributed",
+              "id": 46
+            },
+            "2": {
+              "title": "offline",
+              "id": 47
+            },
+            "4": {
+              "title": "workflow",
+              "id": 49
+            },
+            "5": {
+              "title": "github / gitlab / bitbucket",
+              "id": 50,
+              "ideas": {
+                "1": {
+                  "title": "code review",
+                  "id": 51
+                },
+                "2": {
+                  "title": "web hooks",
+                  "id": 52
+                },
+                "3": {
+                  "title": "issues",
+                  "id": 53
+                },
+                "4": {
+                  "title": "communication point",
+                  "id": 54
+                },
+                "5": {
+                  "title": "access controll",
+                  "id": 56
+                }
+              }
+            },
+            "6": {
+              "title": "submodules",
+              "id": 48,
+              "attr": {
+                "style": {}
+              }
+            }
+          }
+        },
+        "5": {
+          "title": "branching strategy",
+          "id": 115,
+          "ideas": {
+            "2": {
+              "title": "branch by abstration",
+              "id": 17,
+              "attr": {
+                "style": {}
+              }
+            },
+            "3": {
+              "title": "main line",
+              "id": 117,
+              "ideas": {}
+            },
+            "4": {
+              "title": "feature branch",
+              "id": 120
+            }
+          }
+        }
+      }
+    },
+    "2": {
+      "title": "Architecture/Design",
+      "id": 168,
+      "ideas": {
+        "1": {
+          "title": "MicroServices",
+          "id": 169
+        },
+        "2": {
+          "title": "design for cloud",
+          "id": 170
+        }
+      }
+    },
+    "0.5": {
+      "title": "Integration",
+      "id": 3,
+      "ideas": {
+        "1": {
+          "title": "tests",
+          "id": 18,
+          "ideas": {
+            "1": {
+              "title": "unit tests",
+              "id": 20
+            },
+            "2": {
+              "title": "integration tests",
+              "id": 21
+            },
+            "3": {
+              "title": "acceptance tests",
+              "id": 22,
+              "ideas": {
+                "1": {
+                  "title": "selenium ide",
+                  "id": 104,
+                  "ideas": {}
+                },
+                "2": {
+                  "title": "phantomjs",
+                  "id": 107
+                },
+                "3": {
+                  "title": "services",
+                  "id": 108
+                }
+              }
+            },
+            "4": {
+              "title": "performance/security tests",
+              "id": 26
+            },
+            "5": {
+              "title": "LEAN: build quality in product",
+              "id": 27
+            },
+            "6": {
+              "title": "property tests",
+              "id": 57,
+              "ideas": {
+                "1": {
+                  "title": "quickcheck",
+                  "id": 58
+                },
+                "2": {
+                  "title": "proper",
+                  "id": 61
+                }
+              }
+            }
+          }
+        },
+        "2": {
+          "title": "communication point",
+          "id": 19
+        },
+        "3": {
+          "title": "tools",
+          "id": 101,
+          "ideas": {
+            "1": {
+              "title": "jenkins",
+              "id": 102
+            },
+            "2": {
+              "title": "team city",
+              "id": 103
+            },
+            "3": {
+              "title": "travis.ci",
+              "id": 158
+            }
+          }
+        }
+      }
+    },
+    "0.25": {
+      "title": "Build   Artefact",
+      "id": 4,
+      "ideas": {
+        "1": {
+          "title": "image as artifact",
+          "id": 29,
+          "ideas": {
+            "1": {
+              "title": "docker",
+              "id": 30
+            },
+            "2": {
+              "title": "packer.io",
+              "id": 31
+            }
+          }
+        },
+        "2": {
+          "title": "dependency management",
+          "id": 41,
+          "ideas": {
+            "1": {
+              "title": "platform toools: bundler, maven, gradle etc",
+              "id": 42
+            },
+            "2": {
+              "title": "git  submodules",
+              "id": 43
+            },
+            "3": {
+              "title": "manual :(",
+              "id": 187
+            }
+          }
+        }
+      }
+    },
+    "0.0625": {
+      "title": "Deploy",
+      "id": 7,
+      "ideas": {
+        "1": {
+          "title": "LEAN: deployable - build quality in",
+          "id": 62
+        },
+        "2": {
+          "title": "blue/green deploy",
+          "id": 63
+        },
+        "3": {
+          "title": "zone deploy",
+          "id": 64
+        },
+        "4": {
+          "title": "smoke tests",
+          "id": 67
+        },
+        "5": {
+          "title": "release planing",
+          "id": 28,
+          "ideas": {
+            "1": {
+              "title": "continious delivery",
+              "id": 71,
+              "attr": {
+                "style": {}
+              }
+            },
+            "2": {
+              "title": "canary release",
+              "id": 72
+            }
+          },
+          "attr": {
+            "style": {}
+          }
+        }
+      }
+    },
+    "0.015625": {
+      "title": "Development",
+      "id": 9,
+      "ideas": {
+        "1": {
+          "title": "vagrant",
+          "id": 75
+        },
+        "2": {
+          "title": "docker",
+          "id": 76
+        },
+        "3": {
+          "title": "pair programming",
+          "id": 141
+        },
+        "4": {
+          "title": "code review",
+          "id": 142
+        },
+        "5": {
+          "title": "test driven",
+          "id": 143
+        },
+        "6": {
+          "title": "design for deploy",
+          "id": 174
+        }
+      }
+    },
+    "0.0078125": {
+      "title": "Infrastructure",
+      "id": 10,
+      "ideas": {
+        "1": {
+          "title": "IaaS / Cloud",
+          "id": 78,
+          "ideas": {
+            "1": {
+              "title": "private",
+              "id": 79
+            },
+            "2": {
+              "title": "public",
+              "id": 80
+            },
+            "3": {
+              "title": "hybryde",
+              "id": 81
+            },
+            "4": {
+              "title": "Tools: OpenStack, Eucaliptus",
+              "id": 85
+            },
+            "5": {
+              "title": "Learn from Amazon",
+              "id": 160
+            },
+            "6": {
+              "title": "Cloud SDK",
+              "id": 161,
+              "ideas": {
+                "1": {
+                  "title": "JCloud",
+                  "id": 162
+                },
+                "2": {
+                  "title": "amazon SDK",
+                  "id": 163
+                }
+              }
+            }
+          }
+        },
+        "2": {
+          "title": "PaaS",
+          "id": 84,
+          "ideas": {
+            "1": {
+              "title": "Flyn",
+              "id": 86
+            },
+            "2": {
+              "title": "Cloud Foundry",
+              "id": 99
+            }
+          }
+        },
+        "3": {
+          "title": "OS",
+          "id": 135,
+          "ideas": {
+            "1": {
+              "title": "unify",
+              "id": 136,
+              "ideas": {}
+            },
+            "2": {
+              "title": "NixOS/nix",
+              "id": 138
+            },
+            "3": {
+              "title": "CoreOS",
+              "id": 140
+            }
+          }
+        }
+      }
+    },
+    "-1": {
+      "title": "principles",
+      "id": 11,
+      "ideas": {
+        "1": {
+          "title": "repeatable reliable release",
+          "id": 131
+        },
+        "2": {
+          "title": "all under source controll",
+          "id": 132
+        },
+        "3": {
+          "title": "automate everything",
+          "id": 133
+        },
+        "4": {
+          "title": "build once",
+          "id": 134
+        },
+        "5": {
+          "title": "painful - do often",
+          "id": 145
+        },
+        "6": {
+          "title": "done means released",
+          "id": 146
+        },
+        "7": {
+          "title": "everybody responsible for deploy",
+          "id": 147
+        },
+        "8": {
+          "title": "LEAN: build quality in",
+          "id": 148
+        },
+        "9": {
+          "title": "LEAN: improve contuously",
+          "id": 149
+        },
+        "10": {
+          "title": "LEAN: stop the line",
+          "id": 156
+        },
+        "11": {
+          "title": "Fail forvard",
+          "id": 157
+        }
+      }
+    },
+    "-2": {
+      "title": "Orchestration",
+      "id": 12,
+      "ideas": {
+        "1": {
+          "title": "GO",
+          "id": 97
+        },
+        "2": {
+          "title": "Cycle CI",
+          "id": 98
+        }
+      }
+    },
+    "-3": {
+      "title": "Staging",
+      "id": 24,
+      "ideas": {
+        "1": {
+          "title": "perf/security tests",
+          "id": 66,
+          "ideas": {}
+        },
+        "2": {
+          "title": "QA team",
+          "id": 121
+        },
+        "3": {
+          "title": "Acceptance tests",
+          "id": 122
+        },
+        "4": {
+          "title": "SANDBOX painless",
+          "id": 124
+        },
+        "5": {
+          "title": "external integrations",
+          "id": 171,
+          "ideas": {
+            "1": {
+              "title": "mocking",
+              "id": 172
+            },
+            "2": {
+              "title": "API sandboxes",
+              "id": 173
+            }
+          }
+        }
+      }
+    },
+    "-5": {
+      "title": "Information Sources",
+      "id": 34,
+      "ideas": {
+        "1": {
+          "title": "hangoups",
+          "id": 35
+        },
+        "2": {
+          "title": "devopsru",
+          "id": 36
+        },
+        "3": {
+          "title": "infoq",
+          "id": 37
+        },
+        "4": {
+          "title": "THOUTH BOTS: technology radar",
+          "id": 38
+        },
+        "5": {
+          "title": "books",
+          "id": 39,
+          "ideas": {
+            "1": {
+              "title": "Visible Ops",
+              "id": 150
+            },
+            "2": {
+              "title": "Continuous Delivery",
+              "id": 151,
+              "ideas": {}
+            },
+            "3": {
+              "title": "Amazon White Papers",
+              "id": 153
+            },
+            "4": {
+              "title": "Docker book",
+              "id": 154
+            },
+            "5": {
+              "title": "lean enterprise",
+              "id": 155
+            }
+          }
+        },
+        "6": {
+          "title": "corp community",
+          "id": 125,
+          "ideas": {
+            "1": {
+              "title": "seminars/workshops",
+              "id": 126,
+              "ideas": {}
+            },
+            "2": {
+              "title": "web point",
+              "id": 128,
+              "ideas": {
+                "1": {
+                  "title": "share",
+                  "id": 129
+                },
+                "2": {
+                  "title": "question",
+                  "id": 130
+                }
+              }
+            },
+            "3": {
+              "title": "chat/IRC",
+              "id": 159
+            }
+          }
+        }
+      }
+    },
+    "-7": {
+      "title": "Operation",
+      "id": 87,
+      "ideas": {
+        "1": {
+          "title": "Monitoring/Audit\n",
+          "id": 6,
+          "ideas": {
+            "1": {
+              "title": "ESTY: church of graphs",
+              "id": 33
+            },
+            "2": {
+              "title": "graphite",
+              "id": 92
+            },
+            "3": {
+              "title": "zabbix, nagios, sensu",
+              "id": 93
+            },
+            "4": {
+              "title": "Exeptions",
+              "id": 94,
+              "ideas": {
+                "1": {
+                  "title": "front-end exceptions",
+                  "id": 95
+                }
+              }
+            },
+            "5": {
+              "title": "Logging",
+              "id": 181,
+              "ideas": {
+                "1": {
+                  "title": "logstash",
+                  "id": 182
+                },
+                "2": {
+                  "title": "kibana",
+                  "id": 183
+                },
+                "3": {
+                  "title": "analyse for anamalies",
+                  "id": 184
+                }
+              }
+            }
+          },
+          "attr": {
+            "style": {}
+          }
+        },
+        "2": {
+          "title": "coordination",
+          "id": 89,
+          "ideas": {
+            "1": {
+              "title": "zookeeper",
+              "id": 110,
+              "ideas": {}
+            },
+            "2": {
+              "title": "etcd",
+              "id": 113
+            },
+            "3": {
+              "title": "rabbitmq",
+              "id": 114
+            }
+          }
+        },
+        "3": {
+          "title": "responsibility",
+          "id": 74,
+          "attr": {
+            "style": {}
+          }
+        },
+        "4": {
+          "title": "Disaster",
+          "id": 8,
+          "ideas": {
+            "1": {
+              "title": "plan for disaster",
+              "id": 68,
+              "ideas": {}
+            },
+            "2": {
+              "title": "NETFLIX: house monkey",
+              "id": 70
+            }
+          },
+          "attr": {
+            "style": {}
+          }
+        },
+        "5": {
+          "title": "backups & replication",
+          "id": 185
+        }
+      }
+    },
+    "-8": {
+      "title": "team",
+      "id": 164,
+      "ideas": {
+        "1": {
+          "title": "by function",
+          "id": 165
+        },
+        "2": {
+          "title": "by value",
+          "id": 166
+        },
+        "3": {
+          "title": "Conways Law",
+          "id": 167
+        }
+      }
+    },
+    "-9": {
+      "title": "Configuration Management",
+      "id": 175,
+      "ideas": {
+        "1": {
+          "title": "Chef",
+          "id": 176,
+          "ideas": {}
+        },
+        "2": {
+          "title": "Ansible",
+          "id": 178
+        },
+        "3": {
+          "title": "Docker",
+          "id": 179
+        },
+        "4": {
+          "title": "pallet.clj :)",
+          "id": 180
+        }
+      }
+    }
+  },
+  "links": [],
+  "attr": {
+    "measurements-config": [
+      "Order"
+    ],
+    "style": {}
+  }
+}
